@@ -2,10 +2,10 @@
 
 En este archivo README.md se describirá el proceso evaluativo planteado por el Instructor Carlos Navia
 
-### **Nota
+### **Nota**
 Para ingresar al codespace presione "." en la ventana principal del repositorio en GitHub.
 
-### **Ejercicio 1:Navegacion y visualización de Directorios
+### **Ejercicio 1:Navegacion y visualización de Directorios**
 ```bash
 @AlthosKal ➜ /workspaces $ pwd
 /workspaces
@@ -23,7 +23,7 @@ drwxrwxrwx+ 3 codespace root      4.0K Feb 24 17:34 practica-terminal
 @AlthosKal ➜ ~ $ 
 ```
 
-### **Ejercicio 2: Creación y Manipulación de Srchivos y Directorios
+### **Ejercicio 2: Creación y Manipulación de Srchivos y Directorios**
 ```bash
 @AlthosKal ➜ ~ $ mkdir ProyectoCLI
 @AlthosKal ➜ ~ $ cd ProyectoCLI/
@@ -39,7 +39,7 @@ drwxrwxrwx+ 3 codespace root      4.0K Feb 24 17:34 practica-terminal
 src
 ```
 
-### **Ejercicio 3: Enlaces Simbólicos y Manejo de Rutas
+### **Ejercicio 3: Enlaces Simbólicos y Manejo de Rutas**
 ```bash
 @AlthosKal ➜ /workspaces/practica-terminal (main) $ cd ..
 @AlthosKal ➜ ~ $ echo "Hello World" > archivo_original.txt
@@ -52,7 +52,7 @@ archivo_original.txt
 /home/codespace
 ```
 
-## **Ejercicio 4: Búsqueda y Filtrado de Archivos
+## **Ejercicio 4: Búsqueda y Filtrado de Archivos**
 ```bash
 @AlthosKal ➜ ~ $ find *.txt
 archivo_original.txt
@@ -64,7 +64,7 @@ enlace.txt
 bash: /usr/bin/bash /etc/bash.bashrc /usr/share/man/man1/bash.1.gz
 ```
 
-## **Ejercicio 5: Visualizacion y Redirección de contenido
+## **Ejercicio 5: Visualizacion y Redirección de contenido**
 
 ```bash
 @AlthosKal ➜ ~ $ cat archivo_original.txt 
@@ -78,7 +78,7 @@ Hello World
 Hello World
 ```
 
-## **Ejercicio 6: Gestión de Atributos y Eliminación Segura
+## **Ejercicio 6: Gestión de Atributos y Eliminación Segura**
 
 ```bash
 @AlthosKal ➜ ~ $ sudo chattr +i copia.txt
@@ -106,7 +106,7 @@ shred: 00: renamed to 0
 shred: copia.txt: removed
 ```
 
-## **Ejercicico 7: Script Interactivo con ```read```
+## **Ejercicico 7: Script Interactivo con `read`**
 ```bash
 @AlthosKal ➜ ~ $ vim saludo.sh
 @AlthosKal ➜ ~ $ cat saludo.sh 
